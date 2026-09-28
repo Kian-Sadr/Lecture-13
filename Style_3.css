@@ -1,0 +1,23 @@
+body{
+    font-size:28px;
+    padding: 0px 20px 0px 20px; /*top right bottom left*/
+}
+
+h1, h5{
+    text-align: center;
+}
+
+h5{
+    margin: 10px 0px 0px 0px;
+}
+
+#centering{
+    display: flex;
+    justify-content: center;
+}
+
+#left > div, #middle-left > div, #middle-right > div, #right > div{
+    width:250px;
+    height:250px;
+    border:solid;
+}

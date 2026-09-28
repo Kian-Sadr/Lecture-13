@@ -1,0 +1,21 @@
+body{
+    font-size:28px;
+    padding: 0px 20px 0px 20px; /*top right bottom left*/
+}
+
+h1{
+    text-align: center;
+}
+
+table {
+    border: 3px solid gray;
+}
+
+th, td {
+    border: 1px solid gray;
+}
+
+#centering{
+    display:flex;
+    justify-content:space-between;
+}
