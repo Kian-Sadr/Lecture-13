@@ -21,3 +21,52 @@ h5{
     height:250px;
     border:solid;
 }
+
+#left div[class="top"]{
+    background:linear-gradient(green, yellow);
+}
+
+#left div[class="middle-top"]{
+    background:linear-gradient(to bottom right, black, red);
+}
+
+#left div[class="middle-bottom"]{
+    background:linear-gradient(45deg, red, orange, yellow, blue, indigo, violet);
+}
+
+#left div[class="bottom"]{
+    background:repeating-linear-gradient(to right, blue, yellow, green 20%);
+}
+
+#middle div[class="top"]{
+    background:radial-gradient(red,blue);
+}
+
+#middle div[class="middle-top"]{
+    background:radial-gradient(red, blue 50%);
+}
+
+#middle div[class="middle-bottom"]{
+    background:radial-gradiant(red 35%, white 50%);
+}
+
+#middle div[class="bottom"]{
+    background:radial-gradiant(ellipse, red 20%, blue 50%);
+}
+
+#right div[class="top"]{
+   background: repeating-radial-gradient(pink,yellow,lightblue 15%);
+}
+
+#right div[class="middle-top"]{
+   background: repeating-radial-gradient(closest-side at 20% 30%, red, blue, yellow);
+}
+
+#right div[class="middle-bottom"]{
+   background: repeating-radial-gradient(farthest-corner at 20% 30%, yellow, green, black);
+}
+
+#right div[class="bottom"]{
+   background: repeating-radial-gradient(at 160px 200px, orange, blue, pink);
+}
+
