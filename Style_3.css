@@ -21,3 +21,109 @@ h5{
     height:250px;
     border:solid;
 }
+
+@keyframes one_way{
+    from {background-color:blue;}
+    to {background-color:green;}
+}
+
+@keyframes two_ways{
+    0%{background-color:blue;}
+    50%{background-color:green;}
+    100%{background-color:blue;}
+}
+
+@keyframes movement{
+    0{
+        background-color:blue;
+        left:20px;
+        top:1044px;
+    }
+    50%{
+        background-color:green;
+        left:130px;
+        top:1044px;
+    }
+    100%{
+        background-color:blue;
+        left:20px;
+        top:1044px;
+    }
+}
+
+#left div[class="top"]{
+    animation-name: one_way;
+    animation-duration:2s;
+    animation-delay:0.5s
+}
+
+#left div[class="middle-top"]{
+    animation-name: one_way;
+    animation-duration: 2s;
+    animation-iteration-count: 2;
+}
+
+#left div[class="middle-bottom"]{
+    animation-name: two_ways;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+#left div[class="bottom"]{
+    position:absolute;
+    animation-name:movement;
+    animation-duration:4s;
+    animation-iteration-count:infinite;
+}
+
+#middle-left div[class="top"]{
+    animation-name: one_way;
+    animation-duration:2s;
+}
+
+#middle-left div[class="middle-top"]{
+    animation-name: one_way;
+}
+
+#middle-left div[class="middle-bottom"]{
+    animation-name: one_way;
+}
+
+#middle-left div[class="bottom"]{
+    animation-name: one_way;
+}
+
+#middle-right div[class="top"]{
+    animation-name: one_way;
+    animation-duration:2s;
+}
+
+#middle-right div[class="middle-top"]{
+    animation-name: one_way;
+}
+
+#middle-right div[class="middle-bottom"]{
+    animation-name: one_way;
+}
+
+#middle-right div[class="bottom"]{
+    animation-name: one_way;
+}
+
+#right div[class="top"]{
+    animation-name: one_way;
+    animation-duration:2s;
+}
+
+#right div[class="middle-top"]{
+    animation-name: one_way;
+}
+
+#right div[class="middle-bottom"]{
+    animation-name: one_way;
+}
+
+#right div[class="bottom"]{
+    animation-name: one_way;
+}
+
